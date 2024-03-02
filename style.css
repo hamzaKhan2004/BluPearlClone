@@ -1,259 +1,245 @@
-
-header{
-    max-height: 100vh;
-    max-width: 100%;
-    position: relative;
-    overflow: hidden;
+header {
+  max-height: 100vh;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
-.navbar-collapse{
-    flex-grow: 0;
+.navbar-collapse {
+  flex-grow: 0;
 }
 
-
-.carousel-item img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
-main{
-    min-height: 100vh;
-    min-width: 100%;
-    position: relative;
-    overflow: hidden;
+main {
+  min-height: 100vh;
+  min-width: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
-#page1{
-    min-height: 100vh;
-    max-width: 100%;
-    position: relative;
-    color: #185892;
+#page1 {
+  min-height: 100vh;
+  max-width: 100%;
+  position: relative;
+  color: #185892;
 }
 
-#text{
-    margin-top: 100px;
+#text {
+  margin-top: 100px;
 }
 .head-line {
-    width: 245px;
-    height: 2px;
-    background: #185892;
-    margin: 0px auto;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    text-align: center;
-    position: relative;
+  width: 245px;
+  height: 2px;
+  background: #185892;
+  margin: 0px auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  position: relative;
 }
-h1{
-    font-size: 32px;
-    font-weight: 900;
-}
-
-.head-line img{
-    height: 17px !important;
-    width: 17px !important;
-    position: absolute; 
-    top: -8px;
-    left: 115px;
+h1 {
+  font-size: 32px;
+  font-weight: 900;
 }
 
-#text > h4{
-    font-weight: 200;
-    color: #000;
+.head-line img {
+  height: 17px !important;
+  width: 17px !important;
+  position: absolute;
+  top: -8px;
+  left: 115px;
 }
 
-#text > p{
-    font-size: 15px;
-    color: #000;
-    width: 50%;
+#text > h4 {
+  font-weight: 200;
+  color: #000;
 }
 
-#center{
-    min-height: 450px;
-    width: 100%;
-    background-image: url("https://blupearl.in/images/imgbg1.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+#text > p {
+  font-size: 15px;
+  color: #000;
+  width: 50%;
 }
 
-.box{
-    height: 260px;
-    width: 240px;
-    border: 10px solid #185892;
-    padding: 8px;
-    background-color: #fff;
-}
-.innerbox{
-    height: 100%;
-    width: 100%;
-    border: 1px solid rgba(0, 0, 0, 0.577);
-}
-.row1{
-    padding-top: 100px;
+#center {
+  min-height: 450px;
+  width: 100%;
+  background-image: url("https://blupearl.in/images/imgbg1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.innerbox h1{
-    line-height: 1.1;
+.box {
+  height: 260px;
+  width: 240px;
+  border: 10px solid #185892;
+  padding: 8px;
+  background-color: #fff;
+}
+.innerbox {
+  height: 100%;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.577);
+}
+.row1 {
+  padding-top: 100px;
 }
 
-.btn-primary{
-    background-color: #185892;
-    border-radius: 0px;
-}
-.btn-primary:hover{
-    background-color: #fff;
-    color: #185892;
-    border: 1px solid #185892;
+.innerbox h1 {
+  line-height: 1.1;
 }
 
-#page2{
-    min-height: 100vh;
-    max-width: 100%;
-    color: #185892;
-    position: relative;
-    padding-top: 100px;
+.btn-primary {
+  background-color: #185892;
+  border-radius: 0px;
+}
+.btn-primary:hover {
+  background-color: #fff;
+  color: #185892;
+  border: 1px solid #185892;
 }
 
-.card{
-    height: 150px;
-    min-width: 250px;
-    border: none;
+#page2 {
+  min-height: 100vh;
+  max-width: 100%;
+  color: #185892;
+  position: relative;
+  padding-top: 100px;
 }
 
-.card-img-top{
-    height: 60px;
-    width: 60px;
-    object-fit: contain;
-    object-position: center;
+.card {
+  height: 150px;
+  min-width: 250px;
+  border: none;
 }
 
-.card-title{
-    font-weight: 400;
+.card-img-top {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+  object-position: center;
+  transition: all ease-in 0.2s;
 }
 
-#page3{
-    min-height: 100vh;
-    min-width: 100%;
-    color: #185892;
-    position: relative;
-    padding: 100px 0px;
-    background-color: #EADDE6;
+.card-img-top:hover {
+  background-color: #c7b69e;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  padding: 7px;
+  border: 4px solid #185892;
+}
+.card-title {
+  font-weight: 400;
 }
 
-.contain{
-    display: inline-flex;
-    height: 50px;
-    gap: 1vw;
-    background-color: #ffffff99;
+#page3 {
+  min-height: 100vh;
+  min-width: 100%;
+  color: #185892;
+  position: relative;
+  padding: 100px 0px;
+  background-color: #eadde6;
 }
 
-.contain h5{
-    width: 150px;
-    height: 100%;
-}
-.contain h5:hover{
-    background-color: #fff;
-}
-.activate{
-    color: #fff;
-    pointer-events: none;
-    background-color: #185892;
+.contain {
+  display: inline-flex;
+  height: 50px;
+  gap: 1vw;
+  background-color: #ffffff99;
 }
 
-.actualImg{
-    min-width: 300px;
-    height: 240px;
-    border: 2px solid #fff;
+.contain h5 {
+  width: 150px;
+  height: 100%;
+}
+.contain h5:hover {
+  background-color: #fff;
+}
+.activate {
+  color: #fff;
+  pointer-events: none;
+  background-color: #185892;
 }
 
-
-#page4{
-    min-height: 100vh;
-    max-width: 100%;
-    color: #185892;
-    position: relative;
-    padding: 100px 0px;
+.actualImg {
+  min-width: 300px;
+  height: 240px;
+  border: 2px solid #fff;
 }
 
-p{
-    font-size: 15px;
-    color: #000;
-    width: 75%;
+#page4 {
+  min-height: 100vh;
+  max-width: 100%;
+  color: #185892;
+  position: relative;
+  padding: 100px 0px;
 }
 
-.train{
-    height: 100px;
-    width: 100px;
+p {
+  font-size: 15px;
+  color: #000;
+  width: 75%;
 }
 
-
-
-
-#page5{
-    max-height: 80vh;
-    max-width: 100%;
-    background-image: url("https://blupearl.in/images/imgbg1.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 100px 0px;
-    color: #fff;
-}
-.contactSection{
-    border: 2px solid #fff;
-}
-.icons{
-    z-index: 99;
-    position: absolute;
-    left: -30px;
-    top: 10px;
-}
-.input-group-addon::before  {
-    content: "";
-    position: absolute;
-    left: -50px;
-    top: 0px;
-    background-color: #185892;
-    min-height: 38px;
-    min-width: 50px;
+.train {
+  height: 100px;
+  width: 100px;
 }
 
-.text-light{
-    font-weight: 500;
-    font-size: 18px;
+#page5 {
+  max-height: 80vh;
+  max-width: 100%;
+  background-image: url("https://blupearl.in/images/imgbg1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0px;
+  color: #fff;
+}
+.contactSection {
+  border: 2px solid #fff;
+}
+.icons {
+  z-index: 99;
+  position: absolute;
+  left: -30px;
+  top: 10px;
+}
+.input-group-addon::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0px;
+  background-color: #185892;
+  min-height: 38px;
+  min-width: 50px;
 }
 
-footer{
-    background-color: #000;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+.text-light {
+  font-weight: 500;
+  font-size: 18px;
 }
 
-#foot img{
-    height: 100px;
-    width: 100px;
+footer {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
-
-@media (max-width:450px) {
-   iframe{
-    height: 300px;
-    width: 350px;
-   }
+#foot img {
+  height: 100px;
+  width: 100px;
 }
-
-
-@media (max-width:800px) {
-   iframe{
-    height: 300px;
-    width: 600px;
-   }
-}
-
