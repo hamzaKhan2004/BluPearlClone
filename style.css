@@ -1,3 +1,7 @@
+html,
+body {
+  scroll-behavior: smooth;
+}
 header {
   max-height: 100vh;
   max-width: 100%;
